@@ -7,7 +7,7 @@ A demo kotlin application that implemented with Compose + Clean Architecture + M
   
 ## Tools and Language
 - [Kotlin](https://kotlinlang.org/) main language
-- [Compose] (https://developer.android.com/jetpack/compose) 
+- [Compose](https://developer.android.com/jetpack/compose) Jetpack Compose is Android’s recommended modern toolkit for building native UI
 - [Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) For handling Asynchronouse and Multitreading.
 - [Dagger-Hilt](https://developer.android.com/training/dependency-injection/hilt-android) For enable dependency injection of certain classes from the androidx libraries.
 - [Jetpack Navigation](https://developer.android.com/guide/navigation) For navigate between screens.
