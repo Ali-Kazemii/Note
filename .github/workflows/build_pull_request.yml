@@ -12,16 +12,6 @@ jobs:
       - name: Checkout
           uses: actions/checkout@v2
 
-      - name: Restore Cache
-          uses: actions/cache@v2
-          with:
-            path: |
-              ~/.gradle/caches
-              ~/.gradle/wrapper
-            key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
-            restore-keys: |
-              ${{runner.os}}-gradle-
-
       - name: Run Debug Tests
         run: ./gradlew testDebugUnitTest --continue
 
