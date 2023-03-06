@@ -1,9 +1,15 @@
 # Note Demo App
 
-A demo kotlin application that implemented with Compose + Clean Architecture + MVVM + TDD
+A Kotlin application with:
+* Compose + Clean Architecture + MVVM + TDD
+* Unit Test + Integration Test + UI Test
+
 
 ## Screen records
-
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+![Note](https://user-images.githubusercontent.com/73734233/223052022-7cbc9b2b-c5ac-4f41-a2b1-5d1f17e37c82.gif)|![Note2](https://user-images.githubusercontent.com/73734233/223053117-0f23a47d-7cf1-440f-876e-23b3d97f5587.png)|![Note3](https://user-images.githubusercontent.com/73734233/223053129-161304a9-4171-45ef-871d-407788e7e9cf.png)|
+<br />
   
 ## Tools and Language
 - [Kotlin](https://kotlinlang.org/) main language
@@ -24,6 +30,7 @@ A demo kotlin application that implemented with Compose + Clean Architecture + M
 - [Mockito](https://github.com/mockito/mockito-kotlin) For mockking framework
 - [arch.core](https://developer.android.com/jetpack/androidx/releases/arch-core) Helper for other arch dependencies, including JUnit test rules that can be used with LiveData.
 - [kotlinx-coroutines-test](https://developer.android.com/kotlin/coroutines/test) For testing coroutines
+
 - [hilt-android-testing](https://developer.android.com/training/dependency-injection/hilt-testing) For testing Hilt dependency injection
 
 ## Demo
